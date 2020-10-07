@@ -1,4 +1,4 @@
-from databaysansoft import init_app  # __init__.py içerisinden fonksiyonu çağırıyoruz
+from flaskapp import init_app  # __init__.py içerisinden fonksiyonu çağırıyoruz
 
 app = init_app()  # app'imizi oluşturuyoruz
 

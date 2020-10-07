@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output, State
 import plotly.graph_objects as go
 import pandas as pd
 from datetime import datetime
-from databaysansoft.dashboard.apps.covid19 import mydata
+from flaskapp.dashboard.apps.covid19 import mydata
 
 
 DF = mydata.get_data()

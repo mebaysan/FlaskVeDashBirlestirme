@@ -3,9 +3,9 @@ import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
-from databaysansoft.dashboard.apps.covid19.app import init_callbacks as covid19_callbacks
-from databaysansoft.dashboard.layout import html_layout
-from databaysansoft.dashboard.urls import get_app_names, get_paths,get_layout
+from flaskapp.dashboard.apps.covid19.app import init_callbacks as covid19_callbacks
+from flaskapp.dashboard.layout import html_layout
+from flaskapp.dashboard.urls import get_app_names, get_paths,get_layout
 
 
 def init_dashboard(server): # Dash uygulaması oluşturmak için bir fonksiyon yazıyoruz, parametre olarak üzerinde çalışacağı server'i alacak (Flask'ı yollayacağız)

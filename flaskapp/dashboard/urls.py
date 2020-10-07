@@ -1,6 +1,6 @@
-from databaysansoft.dashboard.apps.covid19.app import layout as covid19_layout
-from databaysansoft.dashboard.error_404 import layout as error_404
-from databaysansoft.dashboard.apps.example.app import layout as example_layout
+from flaskapp.dashboard.apps.covid19.app import layout as covid19_layout
+from flaskapp.dashboard.error_404 import layout as error_404
+from flaskapp.dashboard.apps.example.app import layout as example_layout
 URL_PATHS = [
     {'path': '/dashboards/covid19', 'app_name': 'Covid19', 'layout': covid19_layout},
     {'path': '/dashboards/example', 'app_name': 'Example Güzel Oldu', 'layout': example_layout},
